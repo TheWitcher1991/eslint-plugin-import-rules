@@ -1,0 +1,20 @@
+{
+  "name": "@talentspot/eslint-plugin-import-rules",
+  "version": "1.0.0",
+  "description": "Talentspot project eslint import rules",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheWitcher1991/eslint-plugin-import-rules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheWitcher1991/eslint-plugin-import-rules/issues"
+  },
+  "homepage": "https://github.com/TheWitcher1991/eslint-plugin-import-rules#readme",
+  "scripts": {
+    "build": "babel --ignore '**/*.test.js' --quiet --out-dir lib src",
+    "release": "npm publish --access=public"
+  },
+  "author": "",
+  "license": "MIT"
+}
