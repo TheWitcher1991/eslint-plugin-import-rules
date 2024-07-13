@@ -6,7 +6,7 @@ export default {
         version,
         type: 'problem',
         docs: {
-            description: 'Disallow imports inside modules except from index.ts',
+            description: 'Disallow imports inside modules except from index.js',
             category: 'Best Practices',
             recommended: true
         },
